@@ -678,3 +678,9 @@ footer > p {
 
 
 /*End Footer Styling Rules*/
+
+@media (max-width:768px) {
+    div.sample:before {
+        height: calc( 100% - 39px);
+    }
+}
